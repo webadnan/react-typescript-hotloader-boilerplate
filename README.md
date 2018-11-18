@@ -1,7 +1,7 @@
 # react-typescript-hotloader-boilerplate
 Boilerplate application for react+typescript+hotloader.
 
-One of the mandatory step is to compile typescript code to Javascript on save. Use MS Code to get that feature.
+One of the mandatory steps is to compile Typescript code to Javascript on save (to enable hotloader). Use MS Code to get that feature.
 
 Install MS Code
 https://code.visualstudio.com/
@@ -26,7 +26,7 @@ In MS Code update files under src-ts folder, and 'compile on save' feature will 
 Static folder will contain html and root sass files. Individual sass file can stay inside src-ts folder, and that should be imported to static/styles.scss file.
 
 ## Image/icons
-For images or other static content, you may add rules to express, or may create a separeate simple server that serves that static contents.
+For images or other static content, you may add rules to express in src-ts/server.ts, or may create a separeate simple server that serves that static contents.
 
 For example, creating simple server using python:
 ```
