@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "build",
+    "sourceMap": true
+  },
+  "include": [
+    "src-ts"
+  ]
+}

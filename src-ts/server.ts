@@ -16,13 +16,10 @@ app.use(webpack_dev_middleware(compiler, {
 app.use(webpack_hot_middleware(compiler));
 
 app.get('*', function(req, res) {
+  console.log(req.path);
   res.sendFile(path.join(__dirname, '../static/index.html'));
 });
 
-app.listen(3000, function(err) {
-  if (err) {
-    return console.error(err);
-  }
-
+app.listen(3000, function() {
   console.log('Listening at http://localhost:3000/');
 });
