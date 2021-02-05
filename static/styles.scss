@@ -1,12 +1,15 @@
 @import '../src-ts/test-component/index.scss';
 @import '../src-ts/login/index.scss';
 @import '../src-ts/table-row/index.scss';
+@import '../src-ts/tab/controler/index.scss';
+@import '../src-ts/tab/page/index.scss';
+@import '../src-ts/employee/employee-list/index.scss';
 
 .red {
   color: red;
 }
 
 * {
-  background-color: #EEE;
+  // background-color: #EEE;
   font-family: Arial, Helvetica, sans-serif;
 }

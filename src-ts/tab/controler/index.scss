@@ -1,0 +1,14 @@
+.tab-control {
+  .heading {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: bisque;
+  }
+}
